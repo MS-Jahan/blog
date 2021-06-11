@@ -1,0 +1,183 @@
+{
+    "basics": {
+      "name": "Md. Sarwar Jahan Sabit",
+      "label": "#A_Computer_Nerd!",
+      "picture": "https://ms-jahan.github.io/assets/images/sabit.png",
+      "email": "ssarwar@pm.me",
+      "phone": "+880 96112-65560",
+      "website": "https://ms-jahan.github.io",
+      "religion": "Islam",
+      "summary": "Sabit loves to solve problems through coding, plays [Valorant](https://playvalorant.com/), learns new things everyday and helps others.",
+      "location": {
+        "address": "Garpara, Palash, Narsingdi.",
+        "postalCode": "Palash 1610",
+        "city": "Narsingdi",
+        "countryCode": "BD",
+        "region": "Dhaka"
+      },
+      "profiles": [
+        {
+            "network": "Github",
+            "username": "ms-jahan",
+            "url": "https://github.com/ms-jahan"
+        },
+        {
+          "network": "Twitter",
+          "username": "MS_Jahan_Sabit",
+          "url": "https://twitter.com/MS_Jahan_Sabit"
+        },
+        {
+            "network": "Facebook",
+            "username": "mdsarwarjahan.sabit",
+            "url": "https://facebook.com/mdsarwarjahan.sabit"
+        },
+        {
+            "network": "Github",
+            "username": "ms-jahan",
+            "url": "https://github.com/ms-jahan"
+        },
+        {
+            "network": "Telegram",
+            "username": "sa61t",
+            "url": "https://t.me/sa61t"
+        },
+        {
+            "network": "LinkedIn",
+            "username": "mdsarwarjahan-sabit",
+            "url": "https://www.linkedin.com/in/mdsarwarjahan-sabit"
+        },
+        {
+            "network": "LinkedIn",
+            "username": "mdsarwarjahan-sabit",
+            "url": "https://www.linkedin.com/in/mdsarwarjahan-sabit"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "techSMSBD",
+        "position": "Co-founder and Chief Content Creator",
+        "website": "https://techsmsbd.com",
+        "startDate": "2016-03-02",
+        "endDate": "",
+        "summary": "I'm mostly invovled in site designing and content writing.",
+        "highlights": [
+          
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Institute of Science and Technology",
+        "area": "Computer Science and Engineering",
+        "studyType": "Bachelor of Science",
+        "startDate": "2020-12-18",
+        "endDate": ""
+      },
+      {
+        "institution": "<br/><br/>Palash Thana Central College",
+        "area": "Science",
+        "studyType": "Higher School Certificate",
+        "startDate": "2017-06-18",
+        "endDate": "2020-05-01",
+        "gpa": "4.58"
+      },
+      {
+        "institution": "<br/><br/>Janata Adarsha Bidyapith",
+        "area": "Science",
+        "studyType": "Secondary School Certificate",
+        "startDate": "2007-01-01",
+        "endDate": "2017-04-01",
+        "gpa": "4.95"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Web Design",
+        "level": "Intermediate",
+        "keywords": [
+          "HTML",
+          "CSS",
+          "Javascript",
+          "Material Design Web"
+        ]
+      },
+      {
+        "name": "Web Development",
+        "level": "Amateur",
+        "keywords": [
+          "PHP",
+          "Progressive Web App"
+        ]
+      },
+      {
+        "name": "Android Development",
+        "level": "Amateur",
+        "keywords": [
+          "Java",
+          "Kivy (Python)",
+          "WebView"
+        ]
+      },
+      {
+        "name": "Desktop App Development",
+        "level": "Intermediate",
+        "keywords": [
+          "Kivy (Python)",
+          "PyQt (Python)"
+        ]
+      },
+      {
+        "name": "Linux",
+        "level": "Intermediate",
+        "keywords": [
+          "Installation and Tweaking",
+          "Commandline Usage",
+          "Troubleshooting"
+        ]
+      },
+      {
+        "name": "Competitve Programming",
+        "level": "Ameteur",
+        "keywords": [
+          "C++"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Bangla",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Fluent"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Coding",
+        "keywords": [
+          "Solving my own or others' problem."
+        ]
+      },
+      {
+        "name": "Gaming",
+        "keywords": [
+          "Valorant",
+          "Counter Strike 1.6",
+          "Call of Duty"
+        ]
+      },
+      {
+        "name": "Watching Movie",
+        "keywords": [
+          "Mr. Robot",
+          "Intersteller",
+          "Avengers Series",
+          "Spider Man"
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/msjahan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ms-jahan.github.io
+  * I am msjahan (https://keybase.io/msjahan) on keybase.
+  * I have a public key ASDWqfgpKP3UIdgqTUzHpMipn_y2bvMVvTCKZEhgh7fBRgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120322ec0278e1450d010df9044d3de97055792bc5cba53092ba144ca239e96ab240a",
+      "host": "keybase.io",
+      "kid": "0120d6a9f82928fdd421d82a4d4cc7a4c8a99ffcb66ef315bd308a64486087b7c1460a",
+      "uid": "200352e3b9d4b7445d20bc492c857f19",
+      "username": "msjahan"
+    },
+    "merkle_root": {
+      "ctime": 1618113310,
+      "hash": "94a3e2b96c7c5db288ef25511f1d78283f4ede2ddbddf333c11255b52365326aaa671dcc17cc1278c3d7b18f6a114a2fb78066c7544070e70b5fc791d8a46356",
+      "hash_meta": "20c895c0f0ea2ad604e7a382b7284ce7954a576c345b301afed03a6889ad5069",
+      "seqno": 19599157
+    },
+    "service": {
+      "entropy": "/2laWPD73OAhvPNULqANOrcY",
+      "hostname": "ms-jahan.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.1"
+  },
+  "ctime": 1618113330,
+  "expire_in": 504576000,
+  "prev": "b5e208a8fabc6a9e5567bb52e3fa610e756d230ed32e735b059914099693a4c3",
+  "seqno": 40,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg1qn4KSj91CHYKk1Mx6TIqZ/8tm7zFb0wimRIYIe3wUYKp3BheWxvYWTESpcCKMQgteIIqPq8ap5VZ7tS4/phDnVtIw7TLnNbBZkUCZaTpMPEIOMn35P3Rwg6aXDklcx9o+NfqXCHdY6WIoz9q5jO/1pTAgHCo3NpZ8RApch14yTSwNH6BaWs/OKy16/f/kyZcjtLpClYLgxgOKceZIgaOVzD8s/7JcmbJxB5iLKqr3CWDVlphxD8ZvnlAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDhLBWOxh/LG3NQDLgzXYqzjx1ZWODPrUxY70Iu33Kwso3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/msjahan
+
+==================================================================
