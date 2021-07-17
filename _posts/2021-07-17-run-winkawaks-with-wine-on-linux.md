@@ -4,7 +4,7 @@ current: post
 image: assets/images/winkawks.png
 navigation: True
 title: Run WinKawaks on Linux (NeoGeo, Capcom)
-date: 2020-01-17 19:49:00
+date: 2021-07-17 13:06:00
 tags: [linux, gaming, arcade]
 class: post-template
 subclass: 'post'
