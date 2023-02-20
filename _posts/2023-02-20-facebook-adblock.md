@@ -11,6 +11,6 @@ subclass: 'post'
 ---
 
 Interesting!
-#Facebook posts are being blocked by an #adblocker?
+Facebook posts are being blocked by an adblocker?
 
-Currently using #uBlock_Origin and #Adguard_Adblocker.
+Currently using uBlock Origin and Adguard Adblocker.
