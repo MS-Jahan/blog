@@ -12,4 +12,4 @@ subclass: 'post'
 
 @Image Credit to [BBC Bangla](https://www.youtube.com/watch?v=iaXuLg8KIf8)
 
-Didn't know Google's Android has this feature for so long. Now it's also available in Bangladesh. Interesting!
+Didn't know Google's Android has this feature for so long. Now it's also available in Bangladesh. Interesting! 
