@@ -17,7 +17,7 @@ lang: en-US
 title: Sabit's Blog
 email: ssarwar@pm.me
 description: "#A_Computer_Nerd!"
-baseurl: /blog # the optional subpath of your site, e.g. "/blog"
+# baseurl: /blog # the optional subpath of your site, e.g. "/blog"
 url: "https://ms-jahan.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: Md. Sarwar Jahan Sabit
