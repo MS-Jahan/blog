@@ -35,5 +35,5 @@ When reporting a phishing or malicious URL, it's important to provide as much in
 
 As a language model trained by OpenAI, I am committed to promoting online safety and security. Stay safe out there!
 
-_Writing Credit: [ChatGPT](https://chat.openai.com/chat)_
+_Writing Credit: [ChatGPT](https://chat.openai.com/chat)_  
 _Urls were collected from [ThioJoe](https://www.youtube.com/@ThioJoe)'s [this video](https://www.youtube.com/watch?v=0fIUiv9-UFk)_
