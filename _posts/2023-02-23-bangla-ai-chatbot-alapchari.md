@@ -14,3 +14,5 @@ Give it a try!
 
 Link may (will) change in the future.
 http://192.46.211.136/
+
+Updated Url: [http://chatrik.org/alapchari](http://chatrik.org/alapchari)
