@@ -2,7 +2,7 @@
 layout: post
 current: post
 navigation: True
-title: Show Battery Status on Linux
+title: Show Bluetooth Battery Status on Linux
 date: 2023-04-11 11:49:00
 tags: [linux, bluetooth]
 class: post-template
