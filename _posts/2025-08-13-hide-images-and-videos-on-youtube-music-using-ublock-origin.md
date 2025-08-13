@@ -16,7 +16,10 @@ subclass: post
 2. Open the extension/add-on dashboard.
 3. Go to **My Filters** tab.
 4. Add these filters and click **Apply changes**:
-```music.youtube.com##img
+
+```
+music.youtube.com##img
 music.youtube.com##ytd-thumbnail.ytd-video-renderer
 music.youtube.com##ytd-rich-item-renderer.style-scope.ytd-rich-grid-row
-music.youtube.com##ytmusic-player```
+music.youtube.com##ytmusic-player
+```
