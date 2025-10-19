@@ -10,10 +10,10 @@
 - [x] 6. Back to Top Button ✅
 - [x] 7. Table of Contents (Auto-generate) ✅
 - [x] 8. Last Modified Date ✅
-- [ ] 9. Better 404 Page
-- [ ] 10. Archive Page
+- [x] 9. Better 404 Page ✅
+- [x] 10. Archive Page ✅
 - [ ] 11. Open Graph Images per Post
-- [ ] 12. Code Syntax Highlighting Enhancement
+- [x] 12. Code Syntax Highlighting Enhancement ✅
 
 ## Medium Priority
 
@@ -35,4 +35,4 @@
 ---
 
 **Started:** 2025-10-07
-**Last Updated:** 2025-10-07
+**Last Updated:** 2025-10-20
