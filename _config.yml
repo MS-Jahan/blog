@@ -30,9 +30,9 @@ telegram_username: sa61t
 linkedin_username: mdsarwarjahan-sabit
 
 logo: /assets/images/blog-icon.png # path of site logo, e.g. "/assets/images/logo.png"
-search: false # true, false (default)
-search_full_content: false # true, false (default)
-search_provider: # lunr (default), algolia
+search: true # true, false (default)
+search_full_content: true # true, false (default)
+search_provider: lunr # lunr (default), algolia
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME

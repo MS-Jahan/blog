@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build: .
+    container_name: sabit-blog
+    volumes:
+      - .:/srv/jekyll
+      - ./vendor/bundle:/usr/local/bundle
+    ports:
+      - "4000:4000"
+      - "35729:35729"  # LiveReload
+    environment:
+      - JEKYLL_ENV=development
+    command: bundle exec jekyll serve --host 0.0.0.0 --livereload --drafts --future --force_polling

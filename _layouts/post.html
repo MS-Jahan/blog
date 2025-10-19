@@ -10,6 +10,8 @@ layout: default
       <div class="entry-content">
         {{ content }}
       </div>
+      {% include share-buttons.html %}
+      {% include related-posts.html %}
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}
       {% endif %}

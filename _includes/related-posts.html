@@ -1,0 +1,49 @@
+{% if page.title %}
+  {% assign maxRelated = 4 %}
+  {% assign minCommonTags = 1 %}
+  {% assign maxRelatedCounter = 0 %}
+
+  {% for post in site.posts %}
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+
+    {% for tag in post.tags %}
+      {% if post.url != page.url %}
+        {% if page.tags contains tag %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% capture tagmarkup %} <span class="related-tag">{{ tag }}</span> {% endcapture %}
+          {% assign commonTags = commonTags | append: tagmarkup %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+      {% unless relatedPosts %}{% assign relatedPosts = '' %}{% endunless %}
+      {% capture postmarkup %}
+        <div class="related-post">
+          <a href="{{ post.url | relative_url }}">
+            <h4>{{ post.title }}</h4>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+            {% if commonTags %}
+              <div class="common-tags">{{ commonTags }}</div>
+            {% endif %}
+          </a>
+        </div>
+      {% endcapture %}
+      {% assign relatedPosts = relatedPosts | append: postmarkup %}
+      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if relatedPosts %}
+    <div class="related-posts">
+      <h3>Related Posts</h3>
+      <div class="related-posts-grid">
+        {{ relatedPosts }}
+      </div>
+    </div>
+  {% endif %}
+{% endif %}
