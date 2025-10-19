@@ -1,0 +1,49 @@
+<!-- Enhanced Open Graph Meta Tags -->
+{% if page.og_image %}
+  <meta property="og:image" content="{{ page.og_image | absolute_url }}" />
+  <meta property="og:image:secure_url" content="{{ page.og_image | absolute_url }}" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="{{ page.title | default: site.title }}" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="{{ page.og_image | absolute_url }}" />
+{% elsif page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url }}" />
+  <meta property="og:image:secure_url" content="{{ page.image | absolute_url }}" />
+  <meta property="og:image:alt" content="{{ page.title | default: site.title }}" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="{{ page.image | absolute_url }}" />
+{% elsif site.logo %}
+  <meta property="og:image" content="{{ site.logo | absolute_url }}" />
+  <meta property="og:image:secure_url" content="{{ site.logo | absolute_url }}" />
+  <meta property="og:image:alt" content="{{ site.title }}" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="{{ site.logo | absolute_url }}" />
+{% endif %}
+
+<!-- Additional Twitter Meta -->
+{% if site.twitter_username %}
+  <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+  <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
+{% endif %}
+
+<!-- Additional OG Meta -->
+<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}" />
+{% if page.date %}
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+  {% if page.last_modified_at %}
+    <meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}" />
+  {% endif %}
+  {% if page.tags %}
+    {% for tag in page.tags %}
+      <meta property="article:tag" content="{{ tag }}" />
+    {% endfor %}
+  {% endif %}
+{% endif %}

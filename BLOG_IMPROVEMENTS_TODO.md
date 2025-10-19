@@ -12,7 +12,7 @@
 - [x] 8. Last Modified Date ✅
 - [x] 9. Better 404 Page ✅
 - [x] 10. Archive Page ✅
-- [ ] 11. Open Graph Images per Post
+- [x] 11. Open Graph Images per Post ✅
 - [x] 12. Code Syntax Highlighting Enhancement ✅
 
 ## Medium Priority
