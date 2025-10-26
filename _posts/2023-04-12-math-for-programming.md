@@ -8,6 +8,7 @@ date: 2023-04-12 4:44:00
 tags: [programming, math, competitive programming]
 class: post-template
 subclass: 'post'
+excerpt: "Explore the essential mathematical concepts that computer programmers use daily. From basic arithmetic to advanced algorithms, discover how math enhances logical thinking in programming."
 ---
 
 The following text was collected from [here](https://www.facebook.com/groups/10ms.programming/posts/2738823896260758/) by [Programming Baba](https://www.facebook.com/Programmerbaba01), translated and slightly rewritten by ChatGPT.

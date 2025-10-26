@@ -7,6 +7,7 @@ date: 2025-10-27 10:30:00
 tags: [docker, self-hosting, deployment, mcp]
 class: post-template
 subclass: 'post'
+excerpt: "A comprehensive guide to deploying Happy-Server on Coolify using Docker. Learn how to set up the multi-stage build and configure environment variables for self-hosting."
 ---
 
 Happy-Server is a powerful tool that enhances AI assistants like Claude by enabling to use it on your smartphone. If you're looking to self-host it using Coolify, this guide covers the Docker setup you'll need.

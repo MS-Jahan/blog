@@ -30,8 +30,22 @@
   </footer>
   <div class="entry-excerpt">
     {% if post.excerpt %}
-      {{ post.excerpt | markdownify }}
-      <p><a href="{{ post.url | relative_url }}" class="more-link">{{ site.data.theme.t.read_more | default: 'Read More' }} <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a></p>
+      {% comment %}First try to use the excerpt{% endcomment %}
+      {% assign excerpt_html = post.excerpt | markdownify | strip_html %}
+      {% assign excerpt_words = excerpt_html | number_of_words %}
+
+      {% if excerpt_words > 50 %}
+        {% comment %}Excerpt too long, truncate it{% endcomment %}
+        <p>{{ excerpt_html | truncatewords: 50 }}</p>
+      {% else %}
+        {% comment %}Excerpt is good length, keep markdown{% endcomment %}
+        {{ post.excerpt | markdownify }}
+      {% endif %}
+    {% else %}
+      {% comment %}No excerpt at all, use content{% endcomment %}
+      {% assign content_preview = post.content | strip_html | truncatewords: 50 %}
+      <p>{{ content_preview }}</p>
     {% endif %}
+    <p><a href="{{ post.url | relative_url }}" class="more-link">{{ site.data.theme.t.read_more | default: 'Read More' }} <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a></p>
   </div>
 </article>
