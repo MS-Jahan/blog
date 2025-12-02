@@ -7,11 +7,11 @@ actions:
     url: "#pdf-asset"
 ---
 
-<div style="background-color: #fff3cd; border: 1px solid #ffc107; border-radius: 4px; padding: 1rem; margin-bottom: 1.5rem;">
+<div style="background-color: #fff3cd; border: 1px solid #ffc107; border-radius: 4px; padding: 1rem; margin-bottom: 1.5rem; color: #856404;">
   <strong>Notice:</strong> This CV is heavily outdated. For the most current version, please visit:
   <ul style="margin: 0.5rem 0 0 0;">
-    <li><a href="https://cv.sabit.dev">cv.sabit.dev</a></li>
-    <li><a href="https://resume.sabit.dev">resume.sabit.dev</a></li>
+    <li><a href="https://cv.sabit.dev" style="color: #533f03;">cv.sabit.dev</a></li>
+    <li><a href="https://resume.sabit.dev" style="color: #533f03;">resume.sabit.dev</a></li>
   </ul>
 </div>
 
